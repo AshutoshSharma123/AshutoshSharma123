@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Geologica:wght@100&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+}
+
+.card {
+    background: antiquewhite;
+    height: 60vh;
+    width: 30vw;
+    border-radius: 14px;
+    object-position: center;
+    margin: 20vh 42vw;
+    text-align: center;
+
+}
+
+.card .image {
+    object-fit: scale-down;
+    object-position: center;
+    height: 42vh;
+    width: 25vw;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 4px 3vw;
+}
+.card h1{
+    font-size: 20px;
+}
+
+
+
+.buttons {
+    display: flex;
+    height: 7vh;
+    border-radius: 3px;
+    justify-content: space-between;
+    margin: 0px 8vw;
+    padding: 2px 2px;
+}
+
+
+.buttons .add {
+    width: 10vw;
+    padding: 0px 3px;
+    border-radius: 3px;
+    border: none;
+    background: #6cff74;
+    color: aliceblue;
+}
+
+.buttons .remove {
+    width: 10vw;
+    padding: 0px 3px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(184, 174, 174);
+
+}
